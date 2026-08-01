@@ -1,8 +1,25 @@
 aid: prodigyfinance
-name: prodigyfinance
-description: prodigyfinance is a company surfaced as a portfolio company of balderton-capital and added
-  to the API Evangelist network as a stub for enrichment. This profile is a lead awaiting the enrichment
-  pipeline.
+accessModel:
+  pricing: unknown
+  onboarding: unknown
+  trial: false
+  try_now: false
+  public: false
+  label: Unknown
+  confidence: low
+  source: []
+  generated: '2026-07-22'
+  method: derived
+image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/prodigyfinance.png
+name: Prodigy Finance
+description: Prodigy Finance is a fintech lender providing collateral-free, no-cosigner
+  postgraduate education loans to international master's students at top business, engineering,
+  and STEM schools worldwide. Founded in 2007 and headquartered in London, it uses a
+  borderless, forward-looking credit model based on a borrower's projected future earnings
+  rather than local credit history, funding students from more than 150 countries. Prodigy
+  Finance operates consumer web and mobile (iOS/Android) applications, an accounts portal,
+  and a customer help center, but publishes no public developer API, SDKs, or developer
+  portal at this time.
 url: https://raw.githubusercontent.com/api-evangelist/prodigyfinance/refs/heads/main/apis.yml
 x-type: company
 x-source: vc-portfolio
@@ -12,9 +29,14 @@ x-tier: stub
 x-tier-reason: portfolio-lead
 specificationVersion: '0.20'
 created: '2026-07-17'
-modified: '2026-07-17'
+modified: '2026-07-20'
 tags:
 - Company
+- Fintech
+- Lending
+- Student Loans
+- Education Finance
+- Financial Services
 apis: []
 maintainers:
 - FN: Kin Lane
@@ -22,5 +44,26 @@ maintainers:
 - FN: APIs.json
   email: info@apis.io
 common:
+- type: DomainSecurity
+  url: security/prodigyfinance-domain-security.yml
 - type: Website
   url: https://prodigyfinance.com/
+- type: Support
+  url: https://support.prodigyfinance.com/hc/en-us/
+- type: Blog
+  url: https://prodigyfinance.com/study-centre/
+- type: SignUp
+  url: https://accounts.prodigyfinance.com/customers/create-account
+- type: Login
+  url: https://accounts.prodigyfinance.com/
+- type: Security
+  url: https://prodigyfinance.com/legal/security/
+- type: PrivacyPolicy
+  url: https://prodigyfinance.com/legal/privacy-policy/
+- type: TermsOfService
+  url: https://prodigyfinance.com/legal/terms-of-use/
+x-enrichment:
+  date: '2026-07-20'
+  status: minimal
+  artifacts_added: 1
+  pass: local-v1
